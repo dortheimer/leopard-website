@@ -1,0 +1,91 @@
+{% include header.html %}
+<!--== Start Page Content Area Wrapper ==-->
+<div class="page-content-wrapper">
+    <div class="member-details-wrapper sm-top">
+        <div class="container">
+            <div class="member-details-wrap">
+                <div class="member-details-top">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="member-pic mb-sm-35">
+                                <img src="{{ page.image }}" alt="Businex-Team" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 ml-auto">
+                            <div class="member-desc">
+                                <h2>{{ page.title }}</h2>
+                                <h5>{{ page.position }}</h5>
+
+                                {{ content }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="member-details-middle sm-top-wt">
+                    <div class="row mtn-50">
+                        <div class="col-lg-6">
+                            <div class="how-we-works-content">
+                                <h4>Education</h4>
+                                {% for education in page.education %}
+                                <div class="icon-box-item">
+                                    <div class="icon-box__icon">
+                                        <i class="fa fa-graduation-cap fa-lg"></i>
+                                    </div>
+                                    <div class="icon-box__info">
+                                        <h5>{{ education.degree }}</h5>
+                                        <p><a target="_blank" {{ link }}>{{ education.institution }}</a> ({{
+                                            education.years }})</p>
+                                    </div>
+                                </div>
+                                
+                                {% endfor %}
+                            </div>
+
+                        <div class="skill-experience-area mem-achieve-item">
+                            <h4>Certification</h4>
+                            {% for certifications in page.certifications %}
+                            <div>
+
+                                <h5>{{ certifications.title }}</h5>
+                                <p>{{ certifications.issuer }}</p>
+                            </div>
+                            {% endfor %}
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="my-history-area mem-achieve-item">
+                            <h4>Past Professional Experience</h4>
+
+                            <div class="history-content-wrap how-we-works-content">
+                                <!-- Start Member History Item #1 -->
+
+                                {% for experience in page.experience %}
+                                <div class="icon-box-item">
+                                    <div class="icon-box__icon">
+                                        <i class="fa fa-briefcase  fa-lg"></i>
+                                    </div>
+                                    <div class="icon-box__info">
+                                        <h5>{{ experience.company }} </h5>
+                                        <p>{{ experience.description }}</p>
+                                        <p>{{ experience.location }} </p>
+                                        <p>{{ experience.duration }} </p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{% include footer.html %}

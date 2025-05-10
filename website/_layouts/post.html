@@ -1,0 +1,57 @@
+{% include header.html %}
+
+<!--== Start Blog Details Page Content ==-->
+<div class="blog-details-page-content sp-y">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <article class="blog-post-details">
+                    <figure class="blog-post-thumb">
+                        <img src="assets/img/blog/blog-details-1.jpg" alt="Blog" />
+                    </figure>
+
+                    <div class="blog-post-txt-wrap">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-2 order-1 order-md-0">
+                                <div class="author-info mt-sm-40">
+                                    <div class="author-thumb">
+                                        <img src="assets/img/team/02.jpg" alt="Businex-Author" />
+                                    </div>
+                                    <div class="author-txt">
+                                        <h5>Alex Tuntuni <span class="designation">Content Writer</span></h5>
+
+                                        <div class="member-social-icons">
+                                            <a href="#"><i class="mdi mdi-facebook"></i></a>
+                                            <a href="#"><i class="mdi mdi-twitter"></i></a>
+                                            <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-9 col-lg-8 m-auto order-0">
+                                <div class="blog-post-txt">
+                                    <h2 class="h3">{{ page.title }}</h2>
+
+                                    {{ content}}
+                                </div>
+
+                                <div class="share-article text-center">
+                                    <h6>Share this article</h6>
+                                    <div class="member-social-icons justify-content-center">
+                                        <a class="facebook" href="#"><i class="mdi mdi-facebook"></i></a>
+                                        <a class="twitter" href="#"><i class="mdi mdi-twitter"></i></a>
+                                        <a class="reddit" href="#"><i class="mdi mdi-reddit"></i></a>
+                                        <a class="pinterest" href="#"><i class="mdi mdi-pinterest"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Blog Details Page Content ==-->
+{% include footer.html %}
