@@ -2578,6 +2578,9 @@ only screen and (min-width: 1200px) {
     cursor: pointer;
 }
 
+#rev_slider_11_1 {
+    color: #FFFFFF
+}
 #rev_slider_11_2 .uranus.tparrows,
 #rev_slider_11_1 .uranus.tparrows {
     width: 50px;
@@ -2753,7 +2756,7 @@ only screen and (min-width: 1200px) {
 
 .home-two-about-area {
     background-color: #f8f9fc;
-    background-image: url("../img/about-2-bg.jpg");
+    background-image: url("../img/about-2-bg.png");
     background-position: center right;
     background-repeat: no-repeat;
 }
