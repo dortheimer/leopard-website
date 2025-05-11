@@ -4,6 +4,8 @@ title:  Leopard Asset Management Urges Sun Corporation’s Shareholders to Hold 
 date:   2024-07-10
 categories: jekyll update
 author: Ophir Dortheimer
+image: /assets/img/blog/board.png
+
 ---
 
 Leopard Asset Management Ltd. (“LAM”) advises various longstanding minority shareholders in Sun Corporation (stock code: 6736 JP). LAM urges Sun’s shareholders to hold management accountable for their failure to achieve their own stated goals of increasing shareholder value. On June 25, vote against Ryusuke Utsumi, CEO and his management team.

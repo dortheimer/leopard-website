@@ -71,7 +71,7 @@ layout: default
         <div class="row align-items-lg-center">
             <div class="col-md-6 col-lg-5">
                 <figure class="about-thumb">
-                    <img src="assets/img/about.jpg" alt="Leopard Asset Management - About" />
+                    <img src="/assets/img/about.png" alt="Leopard Asset Management - About" />
                 </figure>
             </div>
             <div class="col-md-6 col-lg-7">
@@ -86,7 +86,7 @@ layout: default
                         offering tailored strategies from commercial properties to residential portfolios. Let us help
                         you secure your financial future, built on a foundation of trust and opportunity.
                     </p>
-                    <a href="about.html" class="btn-about">MORE DETAILS <i class="mdi mdi-chevron-double-right"></i></a>
+                    <a href="/about/" class="btn-about">MORE DETAILS <i class="mdi mdi-chevron-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -139,7 +139,7 @@ layout: default
 <!--== End Feature Area Wrapper ==-->
 <!--== Start Service Area Wrapper ==-->
 <div class="service-area-wrapper sm-top-wt">
-    <div class="service-area-top parallax" data-parallax-speed="0.75" data-bg="assets/img/service/service-bg.jpg">
+    <div class="service-area-top parallax" data-parallax-speed="0.75" data-bg="/assets/img/page-header3.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-xl-5 m-auto text-center">
@@ -166,7 +166,7 @@ layout: default
                         </figure>
                         <div class="service-content">
                             <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link"></a>Property Acquisition</h5>
+                                <h5><a href="service-details.html" class="stretched-link"></a>Real Estate Fund</h5>
                                 <p>We identify and secure high-potential real estate assets across prime markets for
                                     your investment success.</p>
                             </div>
@@ -213,66 +213,6 @@ layout: default
                         </div>
                         <!-- End Service Item -->
                     </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="assets/img/service/04.jpg"
-                                    alt="Leopard-Strategy" /></a>
-                            <figcaption class="service-txt">
-                                <h5>Strategic Planning</h5>
-                            </figcaption>
-                        </figure>
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Strategic Planning</a></h5>
-                                <p>We develop robust, agile strategies to help you thrive in every real estate market
-                                    cycle.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="assets/img/service/05.jpg"
-                                    alt="Leopard-Compliance" /></a>
-                            <figcaption class="service-txt">
-                                <h5>Regulatory Compliance</h5>
-                            </figcaption>
-                        </figure>
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Regulatory Compliance</a></h5>
-                                <p>Navigate the complexities of property investment with confidence, supported by our
-                                    legal and regulatory expertise.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <!-- Start Service Item -->
-                    <div class="service-item">
-                        <figure class="service-thumb">
-                            <a href="service-details.html"><img src="assets/img/service/06.jpg"
-                                    alt="Leopard-Partnership" /></a>
-                            <figcaption class="service-txt">
-                                <h5>Investor Relations</h5>
-                            </figcaption>
-                        </figure>
-                        <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link">Investor Relations</a></h5>
-                                <p>We build long-term partnerships, providing transparency and consistent updates to
-                                    help you invest with peace of mind.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Service Item -->
                 </div>
             </div>
         </div>
@@ -351,7 +291,7 @@ layout: default
 </div>
 <!--== End Testimonial Area Wrapper ==-->
 <!--== Start Team Area Wrapper ==-->
-<div class="team-area-wrapper bg-img sp-y" data-bg="assets/img/team/team-bg.jpg">
+<div class="team-area-wrapper bg-img sp-y" data-bg="/assets/img/page-header1.png">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-4">
@@ -366,42 +306,17 @@ layout: default
             </div>
             <div class="col-lg-8">
                 <div class="team-content-wrap slick-dots--light mtn-md-5">
+                    {% for staff_member in site.staff_members %}
                     <div class="team-mem-item">
                         <figure class="member-pic">
-                            <img src="assets/img/team/01.jpg" alt="Leopard Team" />
+                            <img src="{{ staff_member.image }}" alt="{{ staff_member.name }}" />
                         </figure>
                         <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">Lucy Farnando</a></h5>
-                            <span class="designation">CTO & Founder</span>
+                            <h5><a href="{{ staff_member.url }}" class="stretched-link">{{ staff_member.title }}</a></h5>
+                            <span class="designation">{{ staff_member.position }}</span>
                         </div>
                     </div>
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="assets/img/team/02.jpg" alt="Leopard Team" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">James Anderson</a></h5>
-                            <span class="designation">Head of Investments</span>
-                        </div>
-                    </div>
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="assets/img/team/03.jpg" alt="Leopard Team" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">Thomas Nancy</a></h5>
-                            <span class="designation">Portfolio Manager</span>
-                        </div>
-                    </div>
-                    <div class="team-mem-item">
-                        <figure class="member-pic">
-                            <img src="assets/img/team/04.jpg" alt="Leopard Team" />
-                        </figure>
-                        <div class="member-info">
-                            <h5><a href="team-details.html" class="stretched-link">Nail Mathue</a></h5>
-                            <span class="designation">Head of Research</span>
-                        </div>
-                    </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
@@ -420,110 +335,21 @@ layout: default
             </div>
         </div>
         <div class="row mtn-35">
+            {% for post in site.posts %}
             <div class="col-md-6 col-lg-4">
                 <div class="blog-item">
                     <div class="blog-content">
-                        <h2 class="h5"><a href="blog-details.html">New Real Estate Strategies</a></h2>
-                        <p>Discover how market dynamics are shaping today’s most successful property investment
-                            approaches with our expert analysis.</p>
+                        <h2 class="h5"><a href="{{ post.url }}">{{ post.title}}</a></h2>
+                        <p>{{ post.excerpt }}</p>
                         <div class="blog-meta">
-                            <a href="#">By: Albert Max</a>
-                            <a href="#">May 01, 2019</a>
+                            <a href="#">By: {{ post.author }}</a>
+                            <a href="#">{{ post.date |  date: "%b %d, %y" }}</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-item">
-                    <div class="blog-content">
-                        <h2 class="h5"><a href="blog-details.html">Building a Robust Portfolio</a></h2>
-                        <p>Learn our tips on diversifying your assets and securing long-term income through real estate.
-                        </p>
-                        <div class="blog-meta">
-                            <a href="#">By: Mohin Smith</a>
-                            <a href="#">May 03, 2019</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <div class="blog-item">
-                    <div class="blog-content">
-                        <h2 class="h5"><a href="blog-details.html">Real Estate Market Trends 2024</a></h2>
-                        <p>Stay ahead of the curve with updates on property values, investment hotspots, and forecasts
-                            for the coming year.</p>
-                        <div class="blog-meta">
-                            <a href="#">By: Raju Ahammad</a>
-                            <a href="#">May 04, 2019</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
 <!--== End Blog Area Wrapper ==-->
-<!--== Start Brand Logo Area Wrapper ==-->
-<div class="brand-logo-area sm-top">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="brand-logo-content slick-row-20">
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/01.png" alt="Leopard-Logo" /></a>
-                    </div>
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/02.png" alt="Leopard-Logo" /></a>
-                    </div>
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/03.png" alt="Leopard-Logo" /></a>
-                    </div>
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/04.png" alt="Leopard-Logo" /></a>
-                    </div>
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/05.png" alt="Leopard-Logo" /></a>
-                    </div>
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/03.png" alt="Leopard-Logo" /></a>
-                    </div>
-                    <div class="brand-logo-item">
-                        <a href="#"><img src="assets/img/brand-logo/01.png" alt="Leopard-Logo" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--== End Brand Logo Area Wrapper ==-->
-<!--== Start Fun Fact Area Wrapper ==-->
-<div class="fun-fact-area sm-top parallax" data-parallax-speed="0.70" data-bg="assets/img/fun-fact-bg.jpg">
-    <div class="container">
-        <div class="row mtn-40">
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">2654</span></h2>
-                    <h6 class="counter-txt">Satisfied Investors</h6>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">1520</span></h2>
-                    <h6 class="counter-txt">Properties Managed</h6>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">120</span></h2>
-                    <h6 class="counter-txt">Industry Awards</h6>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 text-center">
-                <div class="counter-item">
-                    <h2 class="counter-number"><span class="counter">3580</span></h2>
-                    <h6 class="counter-txt">Investment Projects</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>

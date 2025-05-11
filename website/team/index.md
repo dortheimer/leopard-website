@@ -10,17 +10,13 @@ layout: default
             <div class="col-md-6 col-lg-7 order-1">
                 <div class="about-content ml-0">
                     <h6>Our Team</h6>
-                    <h2>Meet Our <br> Expert Member</h2>
-                    <p><strong>Businex</strong> always try to provide the best Business Solutions for Clinets to
-                        grow up their Business very sharply and smoothly. We voluptatem quia
-                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
-                        magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <h2>Meet Our<br>Expert Team</h2>
+                    <p>
+                        At <strong>Leopard Asset Management</strong>, our experienced team is dedicated to delivering exceptional investment solutions for our clients. 
+                        With deep expertise across global markets and a commitment to long-term value, we strive to help you achieve financial growth with confidence and clarity. 
+                        Our collaborative approach ensures that you receive the insight and support needed to navigate an ever-changing investment landscape.
+                    </p>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-5 order-0 order-md-1">
-                <figure class="about-thumb">
-                    <img src="assets/img/about.jpg" alt="Businex-About" />
-                </figure>
             </div>
         </div>
     </div>

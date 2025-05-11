@@ -6,33 +6,39 @@
         <div class="row">
             <div class="col-12">
                 <article class="blog-post-details">
-                    <figure class="blog-post-thumb">
-                        <img src="assets/img/blog/blog-details-1.jpg" alt="Blog" />
-                    </figure>
+                   
 
                     <div class="blog-post-txt-wrap">
                         <div class="row">
                             <div class="col-md-3 col-lg-2 order-1 order-md-0">
                                 <div class="author-info mt-sm-40">
-                                    <div class="author-thumb">
-                                        <img src="assets/img/team/02.jpg" alt="Businex-Author" />
-                                    </div>
-                                    <div class="author-txt">
-                                        <h5>Alex Tuntuni <span class="designation">Content Writer</span></h5>
+                                    {% for staff_member in site.staff_members %}
+                                        {% if page.author contains staff_member.title or staff_member.title == page.author %}
 
-                                        <div class="member-social-icons">
-                                            <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                            <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                            <a href="#"><i class="mdi mdi-linkedin"></i></a>
-                                        </div>
-                                    </div>
+                                            <div class="author-thumb">
+                                                <img src="{{ staff_member.image }}" alt="{{ staff_member.name }}" />
+                                            </div>
+                                            <div class="author-txt">
+                                                <h5><a href="{{ staff_member.url }}">{{ staff_member.title }}</a> <span class="designation">{{ staff_member.position }}</span></h5>
+        
+                                                <div class="member-social-icons">
+                                                    <a href="#"><i class="mdi mdi-facebook"></i></a>
+                                                    <a href="#"><i class="mdi mdi-twitter"></i></a>
+                                                    <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                   
                                 </div>
                             </div>
 
                             <div class="col-md-9 col-lg-8 m-auto order-0">
                                 <div class="blog-post-txt">
                                     <h2 class="h3">{{ page.title }}</h2>
-
+                                    <figure class="blog-post-thumb">
+                                        <img src="{{ page.image }}" alt="Blog" />
+                                    </figure>
                                     {{ content}}
                                 </div>
 
