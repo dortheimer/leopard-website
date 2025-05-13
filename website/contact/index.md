@@ -10,8 +10,7 @@ layout: default
                 <div class="page-header-content-inner">
                     <div class="page-header-content">
                         <h2>CONTACT US</h2>
-                        <p>Businex always try to provide the best Business Solutions for Clinets
-                            to grow up their Business very sharply and smoothly.</p>
+                        <p>Whether you have questions about our funds and services, or want to discuss partnership opportunities, our team is here to help you achieve your goals. </p>
                     </div>
                 </div>
             </div>
