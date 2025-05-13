@@ -4,7 +4,7 @@ title:  Leopard Asset Management Urges Sun Corporation’s Shareholders to Hold 
 date:   2024-07-10
 categories: jekyll update
 author: Ophir Dortheimer
-image: /assets/img/blog/board.png
+image: /assets/img/blog/board.avif
 
 ---
 

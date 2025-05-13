@@ -80,13 +80,11 @@ layout: default
                             <h3>Contact Info</h3>
                             <div class="widget-item m-0">
                                 <address>
-                                    2005 Stokes Isle Apartment. 896, Washington 10010, USA
+                                    10 HaManofim St. Herzliya, Israel
                                     <br>
-                                https://example.com
+                                https://leopard-mgmt.com
                                     <br>
-                                hello@example.com
-                                    <br>
-                                (+68) 120034509
+                                <a href="mailto:info@leopard-mgmt.com">info@leopard-mgmt.com</a>
                             </address>
                             </div>
                             <div class="member-social-icons mt-30">
