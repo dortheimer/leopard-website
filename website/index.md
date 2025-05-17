@@ -9,10 +9,10 @@ layout: default
             <div class="col-md-12">
                 <div class="about-content">
                     <h6>ABOUT US</h6>
-                    <h2>Agile Investments <br> In Solid Ground</h2>
+                    <h2>CREATING VALUE</h2>
                     <span class="about-since">Since 2010</span>
                     <p>
-                        <strong>Leopard Asset Management</strong> is focused on finding value in overlooked small and mid-cap companies globally. Combining theme-based investing with rigorous fundamental value investment, the fund aims to generate alpha through both long and short positions while adding activist strategies to drive value crystallization. 
+                        <strong>Leopard Asset Management</strong> is an emerging investment platform focused on value. We are opportunistic and seek value in various corners of the market
                     </p>
                     <a href="/about/" class="btn-about">MORE DETAILS <i class="mdi mdi-chevron-double-right"></i></a>
                 </div>
@@ -86,7 +86,7 @@ layout: default
                                     <!-- alt="Leopard-InvestmentStrategy" /></a> -->
                             <div class="service-txt">
                                 <h5>Leopard Global Equity</h5>
-                                <p>A global, theme-based equity strategy targeting transformational opportunities.</p>
+                                <p>Leopard Global Equity is a long-short Cayman Island-based hedge fund, focused on investments in corners of the markets in which we see long-term value</p>
                             </div>
                         </figure>
                         <!-- <div class="service-content">
@@ -104,7 +104,7 @@ layout: default
                         <div class="service-thumb">
                             <div class="service-txt">
                                 <h5>Leopard Real Estate</h5>
-                                <p>Direct real estate investment leveraging market research and acquisition expertise.</p>
+                                <p>Long-only Cayman Island-based hedge fund. The fund aims to generate excess returns over its benchmark by investing in a combination of value and growth real estate companies. The fund holds a concentrated portfolio of European-listed real estate companies and asset managers.</p>
                             </div>
                         </div>
                     </div>
