@@ -3,7 +3,7 @@ title: Opinions
 layout: default
 ---
 <!--== Start Page Header Area ==-->
-<div class="page-header-area bg-img" data-bg="/assets/img/page-header.png">
+<div class="page-header-area bg-img" background="#151515">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-xl-8 m-auto text-center">
@@ -29,9 +29,9 @@ layout: default
                         {% for post in paginator.posts %}
                         <div class="col-md-6 col-lg-4">
                             <div class="blog-item">
-                                <figure class="blog-thumb">
+                                <!-- <figure class="blog-thumb">
                                     <a href="{{ post.url }}"><img src="{{ post.image }}" alt="Businex-Blog" /></a>
-                                </figure>
+                                </figure> -->
                                 <div class="blog-content">
                                     <h2 class="h5"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                                     <p>{{ post.excerpt }}</p>
