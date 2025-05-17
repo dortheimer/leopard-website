@@ -1,7 +1,7 @@
 ---
 layout: staff
 title: Ophir Dortheimer
-position: Founder and CEO
+position: Founder and Manager
 image: /assets/img/team/ophir.jpeg
 
 education:

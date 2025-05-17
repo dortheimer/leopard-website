@@ -2756,7 +2756,6 @@ only screen and (min-width: 1200px) {
 
 .home-two-about-area {
     background-color: #f8f9fc;
-    background-image: url("../img/about-2-bg.png");
     background-position: center right;
     background-repeat: no-repeat;
 }

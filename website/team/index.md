@@ -10,11 +10,9 @@ layout: default
             <div class="col-md-6 col-lg-7 order-1">
                 <div class="about-content ml-0">
                     <h6>Our Team</h6>
-                    <h2>Meet Our<br>Expert Team</h2>
+                    <h2>Meet Our Team</h2>
                     <p>
                         At <strong>Leopard Asset Management</strong>, our experienced team is dedicated to delivering exceptional investment solutions for our clients. 
-                        With deep expertise across global markets and a commitment to long-term value, we strive to help you achieve financial growth with confidence and clarity. 
-                        Our collaborative approach ensures that you receive the insight and support needed to navigate an ever-changing investment landscape.
                     </p>
                 </div>
             </div>
