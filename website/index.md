@@ -79,36 +79,18 @@ layout: default
         <div class="container">
             <div class="row mtn-30">
                 <div class="col-sm-6">
-                    <!-- Start Service Item -->
                     <div class="service-item">
-                        <figure class="service-thumb">
-                            <!-- <a href="service-details.html"><img src="assets/img/service/fund2.avif" -->
-                                    <!-- alt="Leopard-InvestmentStrategy" /></a> -->
-                            <div class="service-txt">
-                                <h5>Leopard Global Equity</h5>
-                                <p>Leopard Global Equity is a long-short Cayman Island-based hedge fund, focused on investments in corners of the markets in which we see long-term value</p>
-                            </div>
-                        </figure>
-                        <!-- <div class="service-content">
-                            <div class="service-content-inner">
-                                <h5><a href="service-details.html" class="stretched-link"></a>Leopard Global Equity</h5>
-                                <p>A global, theme-based equity strategy targeting transformational opportunities.</p>
-                            </div>
-                        </div> -->
+                        <!-- Start Service Item -->
+                        <h5>Leopard Global Equity</h5>
+                        <p>Leopard Global Equity is a long-short Cayman Island-based hedge fund, focused on investments in corners of the markets in which we see long-term value</p>
                     </div>
-                    <!-- End Service Item -->
                 </div>
                 <div class="col-sm-6">
-                    <!-- Start Service Item -->
                     <div class="service-item">
-                        <div class="service-thumb">
-                            <div class="service-txt">
-                                <h5>Leopard Real Estate</h5>
-                                <p>Long-only Cayman Island-based hedge fund. The fund aims to generate excess returns over its benchmark by investing in a combination of value and growth real estate companies. The fund holds a concentrated portfolio of European-listed real estate companies and asset managers.</p>
-                            </div>
-                        </div>
+                        <h5>Leopard Real Estate</h5>
+                        <p>Long-only Cayman Island-based hedge fund. The fund aims to generate excess returns over its benchmark by investing in a combination of value and growth real estate companies. The fund holds a concentrated portfolio of European-listed real estate companies and asset managers.</p>
+                        <!-- End Service Item -->
                     </div>
-                    <!-- End Service Item -->
                 </div>
             </div>
         </div>
@@ -149,7 +131,7 @@ layout: default
 <!--== End Blog Area Wrapper ==-->
 
 <!--== Start Team Area Wrapper ==-->
-<div class="team-area-wrapper bg-img sp-y home-two-about-area" >
+<div class="team-area-wrapper bg-img sp-y" style="background:#151515">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-4">
