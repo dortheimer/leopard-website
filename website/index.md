@@ -78,7 +78,7 @@ layout: default
     <div class="service-content-area">
         <div class="container">
             <div class="row mtn-30">
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <!-- Start Service Item -->
                     <div class="service-item">
                         <figure class="service-thumb">
@@ -98,7 +98,7 @@ layout: default
                     </div>
                     <!-- End Service Item -->
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                     <!-- Start Service Item -->
                     <div class="service-item">
                         <div class="service-thumb">
