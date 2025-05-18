@@ -3,14 +3,13 @@ title: Team
 layout: default
 ---
 <!--== Start Page Header Area ==-->
-<div class="page-header-area bg-img" style="background:#151515">
+<div class="page-header-area bg-img">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 col-xl-8 m-auto text-center">
                 <div class="page-header-content-inner">
                     <div class="page-header-content">
                         <h2>CONTACT US</h2>
-                        <p>Whether you have questions about our funds and services, or want to discuss partnership opportunities, our team is here to help you achieve your goals. </p>
                     </div>
                 </div>
             </div>
@@ -81,16 +80,10 @@ layout: default
                                 <address>
                                     10 HaManofim St. Herzliya, Israel
                                     <br>
-                                https://leopard-mgmt.com
+                                    <a style="color:white" href="https://leopard-mgmt.com">https://leopard-mgmt.com</a>
                                     <br>
-                                <a href="mailto:info@leopard-mgmt.com">info@leopard-mgmt.com</a>
+                                    <a style="color:white" href="mailto:info@leopard-mgmt.com">info@leopard-mgmt.com</a>
                             </address>
-                            </div>
-                            <div class="member-social-icons mt-30">
-                                <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
-                                <a href="#"><i class="mdi mdi-pinterest"></i></a>
                             </div>
                         </div>
                     </div>
